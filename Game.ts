@@ -78,5 +78,6 @@ export class Game implements IGame {
     this.intervalArray.forEach((x) => {
       clearInterval(x);
     });
+    this.intervalArray = [];
   }
 }
